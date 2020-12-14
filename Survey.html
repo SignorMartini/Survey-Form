@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Springs Health Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="Survey.css"
+    
+    </head>
+    <body>
+<h1 id="title">Ministry of Health Survey Form</h1>
+
+<p id="description">Thank you for helping us improve our services!</p>
+
+<div id="body">
+
+<form id="survey-form">
+
+<label id="name-label" for="name">
+    <p>Name</p>
+</label>
+<input id="name" type="text" placeholder="Enter Your Name" required>
+
+<label id="email-label" for="email">
+<p>Email</p>
+</label>
+<input id="email" type="email" placeholder="Enter Your Email" required>
+
+<label id="number-label" for="number">
+<p>Age</p>
+</label>
+<input id="number" type="number" placeholder="Enter Your Age" min="10" max="120" required>
+
+<p>What factor do you think makes the health sector dysfunctional?</p>
+<select id="dropdown">
+
+    <option value="default">Nothing</option>
+    <option value="Poor funding">Poor funding</option>
+    <option value="Corruption">Corruption</option>
+    <option value="Inadequate number of healthcare professionals">Inadequate number of healthcare professionals</option>
+    <option value="Vandalism">Vandalism</option>
+
+</select>
+
+<P>What do you hate most about Nigerian Hospitals?</P>
+<input type="radio" name="hospital" value="1">Dilapidated infrastructure</input>
+<br>
+<input type="radio" name="hospital" value="2">Attitude of healthcare professionals</input>
+<br>
+<input type="radio" name="hospital" value=3">Inadequately stocked pharmacies </input>
+<br>
+<input type="radio" name="hospital" value="4">Delay in attending to patients</input>
+<br>
+<input type="radio" name="hospital" value="5">Smell of the wards</input>
+
+
+
+<p>What other thing (Corruption) do you hate about the hospitals?</p>
+<input type="checkbox" name="corruption" value="1">Looting by politicians</input>
+<br>
+<input type="checkbox" name="corruption" value="2">Looting by Ministry officials</input>
+<br>
+<input type="checkbox" name="corruption" value="3">Looting by hospital management</input>
+<br>
+<input type="checkbox" name="corruption" value="4">Looting by hospital visitors</input>
+<br>
+<br>
+
+<textarea id="comment" rows="4" cols="40">Add your comment here</textarea>
+<br>
+<input id="submit" type="submit" value="submit">
+
+
+
+</form>
+
+</div>
+    </body>
+</html>
